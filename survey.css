@@ -1,0 +1,96 @@
+body {
+    background-image: url(https://media.nationalgeographic.org/assets/photos/957/798/480e8645-fc3f-48dc-b17a-e81038d3ee97_c158-0-1842-1333_r800x633.jpg?eff12d8bcc1b3653b5f5a0c5ed1619838922d9af);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: rgb(245, 255, 250);
+    font-family: Perpetua;
+    font-size: 24px;
+  }
+  
+  h1, p {
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 2rem;
+    margin-bottom: 0;
+  }
+  
+  p {
+    margin-top: 0;
+    margin-bottom: 2rem;
+  }
+  
+  .established {
+    font-style: italic;
+  }
+  
+  form {
+    background-color: rgba(45, 0, 100, 0.9);
+    color: rgb(245, 255, 250);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(255, 215, 0);
+    width: 60vw;
+    max-width: 700px;
+    min-width: 350px;
+    margin: 0 auto;
+    padding: 15px 15px 25px 15px;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  fieldset {
+    border: none;
+  }
+  
+  input,
+  select,
+  textarea {
+    width: 100%;
+    margin: 0.1em 0 1em 0;
+    min-height: 2em;
+    font-size: 0.67em;
+  }
+  
+  input,
+  select {
+    border-radius: 5px;
+  }
+  
+  textarea {
+    min-height: 6.33em;
+    resize: vertical;
+  }
+  
+  input[type="submit"] {
+    background-color: rgb(139, 0, 139);
+    border-color: rgb(255, 215, 0);
+    color: rgb(245, 255, 250);
+    font-size: 1.33rem;
+    min-height: 2.5em;
+  }
+  
+  input[type="submit"]:hover {
+    outline: none !important;
+    border: 2px solid rgb(0, 255, 255);
+    box-shadow: 0 0 10px rgb(0, 127, 127);
+    cursor: pointer;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="number"]:focus,
+  select:focus {
+    outline: none !important;
+    box-shadow: 0 0 7px rgb(0, 255, 255);
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    min-height: unset;
+    vertical-align: middle;
+  }
